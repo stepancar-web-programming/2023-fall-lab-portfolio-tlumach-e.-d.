@@ -1,7 +1,7 @@
 (function () {
-  const carouselItems = document.querySelectorAll(".carousel_item");
-  const prevButton = document.querySelector(".prev_button");
-  const nextButton = document.querySelector(".next_button");
+  const carouselItems = document.querySelectorAll(".portfolio_carousel_item");
+  const prevButton = document.querySelector(".portfolio_prev_button");
+  const nextButton = document.querySelector(".portfolio_next_button");
   let currentSlide = 0;
 
   function showSlide(n) {
