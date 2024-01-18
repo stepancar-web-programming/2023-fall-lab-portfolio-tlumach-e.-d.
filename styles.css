@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header styles */
+
+header {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 10vh;
+}
+
+.header_head {
+  position: relative;
+  background-color: #000000;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_inner nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header_inner nav ul li {
+  list-style-type: none;
+}
+
+.header_inner nav ul li a {
+  font-size: 15px;
+  color: #ccc;
+  display: inline-block;
+  padding: 20px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Section  styles*/
+
+section {
+  position: relative;
+  padding: 20px 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.section_title {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 2;
+}
+
+/* Home page, Section with greeting */
+
+.section_greeting {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.section_greeting_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.section_greeting_inner .left .title {
+  color: #333;
+  font-size: 46px;
+  transition: all 0.5s ease;
+}
+
+.section_greeting_inner .right img {
+  border-radius: 10%;
+  display: flex;
+}
+
+.section_greeting a.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #ccc;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* Home page, Section about me */
+
+.section_about_text {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.section_about_text p {
+  margin-bottom: 20px;
+}
+
+/* Footer  */
+footer {
+  position: relative;
+  padding: 20px 0;
+  background-color: #000000;
+}
+
+footer p {
+  color: #ccc;
+  text-align: left;
+}
+
+/* Porfolio page, Section with slider */
+
+.section_portfolio_carousel {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.portfolio_carousel_item {
+  flex: 0 0 100%;
+  text-align: center;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portfolio_carousel_item img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.portfolio_buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.portfolio_prev_button,
+.portfolio_next_button {
+  background-color: #333;
+  color: #ccc;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: auto;
+  display: inline-block;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.portfolio_next_button:hover,
+.portfolio_prev_button:hover {
+  background: #555;
+}
+
+/* Porfolio page, Section with video */
+
+.project_video {
+  width: 640px;
+  height: 480px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Contacts page */
+
+.contacs_form {
+  position: relative;
+  max-width: 700px;
+  margin: 45px auto;
+  text-align: center;
+}
+
+.contacs_form form input {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 20px;
+  padding: 10px 0 10px 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  border: 1px solid #333;
+  border-radius: 1px;
+}
+
+.contacs_form form textarea {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px 0 10px 30px;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #333;
+  border-radius: 1px;
+}
+
+.contacs_form form button {
+  background-color: #333;
+  color: #ccc;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: auto;
+}
